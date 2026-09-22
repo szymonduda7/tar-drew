@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tar-Drew Hubert Streflik | Tartak w Skórce, przecieranie drewna</title>
+<meta name="description" content="Tar-Drew Hubert Streflik. Usługowe przecieranie drewna do średnicy 120 cm i długości 10,8 m oraz sprzedaż tarcicy, więźby dachowej i drewna ogrodowego. Tartak w Skórce, woj. wielkopolskie.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<link rel="stylesheet" href="styles.css">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink: '#211a12',
+          'ink-soft': '#5b4f3f',
+          paper: '#f1ead9',
+          'paper-raised': '#f8f3e7',
+          bark: '#1c1712',
+          'bark-raised': '#241e17',
+          amber: '#b9772f',
+          'amber-dark': '#8f5a20',
+          'amber-bright': '#d99a4e',
+          moss: '#5f6b48',
+          'moss-light': '#93a06f',
+        },
+        fontFamily: {
+          display: ['"Fraunces"', 'ui-serif', 'serif'],
+          sans: ['"Inter"', 'sans-serif'],
+        },
+      },
+    },
+  };
+</script>
+</head>
+<body class="bg-paper text-ink">
+
+<!-- ============ HEADER ============ -->
+<header id="site-header" class="site-header fixed top-0 left-0 right-0 z-50">
+  <div class="max-w-7xl mx-auto px-5 md:px-8 h-16 md:h-20 flex items-center justify-between">
+    <a href="index.html" class="flex items-center">
+      <span class="font-display text-2xl md:text-3xl tracking-tight leading-none">
+        <span class="text-amber-bright font-semibold">Tar</span><span class="text-paper font-semibold">-Drew</span>
+      </span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8 text-sm uppercase tracking-wide font-medium">
+      <a href="uslugi.html" class="nav-link">Usługi</a>
+      <a href="#realizacje" class="nav-link">Realizacje</a>
+      <a href="#opinie" class="nav-link">Opinie</a>
+      <a href="#kontakt" class="nav-link">Kontakt</a>
+    </nav>
+    <a href="tel:690971915" class="btn btn-primary rounded-full px-5 py-2.5 text-sm">
+      <i data-lucide="phone" class="w-4 h-4"></i>
+      690 971 915
+    </a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="relative min-h-[100svh] flex items-end overflow-hidden bg-bark">
+  <img src="images/2.webp" alt="Plac tartaku Tar-Drew ze stosami tarcicy przygotowanej do odbioru" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-bark/35"></div>
+  <div class="grain"></div>
+
+  <div class="relative max-w-7xl mx-auto w-full px-5 md:px-8 pb-24 md:pb-32 pt-32">
+    <div class="hero-panel rounded-2xl p-7 md:p-10 max-w-2xl">
+      <h1 class="font-display font-semibold text-paper leading-[1.05] tracking-tight text-4xl sm:text-5xl md:text-6xl">
+        Materiały drewniane, dokładnie na Twój wymiar
+      </h1>
+      <p class="mt-5 text-base md:text-lg text-paper/80 max-w-xl leading-relaxed">
+        Usługowe przecieranie drewna o średnicy do 120 cm i długości 10,8 m oraz sprzedaż tarcicy obrzynanej, nieobrzynanej i więźby dachowej. Tartak w Skórce, w sercu Wielkopolski.
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a href="tel:690971915" class="btn btn-primary rounded-full px-7 py-4 text-base">
+          <i data-lucide="phone-call" class="w-5 h-5"></i>
+          Zadzwoń: 690 971 915
+        </a>
+        <a href="uslugi.html" class="btn btn-outline rounded-full px-7 py-4 text-base">
+          Zobacz usługi
+          <i data-lucide="arrow-right" class="w-5 h-5"></i>
+        </a>
+      </div>
+
+      <div class="mt-8 flex flex-wrap gap-3 text-sm">
+        <div class="stat-pill rounded-full px-4 py-2 flex items-center gap-2 text-paper">
+          <span class="stars">★★★★★</span> 5,0 <span class="text-paper/70">(2 opinie)</span>
+        </div>
+        <div class="stat-pill rounded-full px-4 py-2 flex items-center gap-2 text-paper">
+          <i data-lucide="ruler" class="w-4 h-4 text-amber-bright"></i> do 120 cm / 10,8 m
+        </div>
+        <div class="stat-pill rounded-full px-4 py-2 flex items-center gap-2 text-paper">
+          <i data-lucide="map-pin" class="w-4 h-4 text-amber-bright"></i> Skórka, wielkopolskie
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <svg class="sawtooth absolute -bottom-px left-0 text-paper" viewBox="0 0 1200 40" preserveAspectRatio="none" fill="currentColor">
+    <path d="M0,40 L25,12 L50,40 L75,12 L100,40 L125,12 L150,40 L175,12 L200,40 L225,12 L250,40 L275,12 L300,40 L325,12 L350,40 L375,12 L400,40 L425,12 L450,40 L475,12 L500,40 L525,12 L550,40 L575,12 L600,40 L625,12 L650,40 L675,12 L700,40 L725,12 L750,40 L775,12 L800,40 L825,12 L850,40 L875,12 L900,40 L925,12 L950,40 L975,12 L1000,40 L1025,12 L1050,40 L1075,12 L1100,40 L1125,12 L1150,40 L1175,12 L1200,40 Z"/>
+  </svg>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="relative py-20 md:py-28 px-5 md:px-8 bg-paper">
+  <div class="max-w-7xl mx-auto">
+    <div class="max-w-2xl mb-14">
+      <div class="rule-bar mb-5"></div>
+      <h2 class="font-display font-semibold text-4xl md:text-5xl leading-[1.05] tracking-tight">
+        Dlaczego klienci wybierają <span class="text-amber-dark">Tar-Drew</span>
+      </h2>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-12 h-12 rounded-full bg-amber/10 flex items-center justify-center mb-6">
+          <i data-lucide="trees" class="w-6 h-6 text-amber-dark"></i>
+        </div>
+        <h3 class="font-display font-semibold text-xl tracking-tight mb-3">Surowiec każdej wielkości</h3>
+        <p class="text-ink-soft leading-relaxed">Przecinamy kłody o średnicy do 120 cm i długości do 10,8 m. Duża wydajność tartaku, nawet przy nietypowych zleceniach.</p>
+      </div>
+      <div class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-12 h-12 rounded-full bg-amber/10 flex items-center justify-center mb-6">
+          <i data-lucide="badge-check" class="w-6 h-6 text-amber-dark"></i>
+        </div>
+        <h3 class="font-display font-semibold text-xl tracking-tight mb-3">Rzetelna współpraca</h3>
+        <p class="text-ink-soft leading-relaxed">Materiał wykonany pierwszorzędnie i uczciwy kontakt na każdym etapie zlecenia. Klienci wracają do nas z kolejnymi zamówieniami.</p>
+      </div>
+      <div class="surface-card rounded-2xl p-8 reveal">
+        <div class="w-12 h-12 rounded-full bg-amber/10 flex items-center justify-center mb-6">
+          <i data-lucide="package" class="w-6 h-6 text-amber-dark"></i>
+        </div>
+        <h3 class="font-display font-semibold text-xl tracking-tight mb-3">Szeroki asortyment</h3>
+        <p class="text-ink-soft leading-relaxed">Tarcica, więźba dachowa, drewno ogrodowe, opałowe i akcesoria do mebli. Wszystko z jednego tartaku, bez pośredników.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="uslugi" class="relative pt-20 pb-28 md:pt-28 md:pb-40 px-5 md:px-8 bg-bark wood-lines overflow-hidden">
+  <div class="grain"></div>
+  <div class="relative max-w-7xl mx-auto">
+    <div class="flex flex-wrap items-end justify-between gap-6 mb-14">
+      <div class="max-w-2xl">
+        <div class="rule-bar mb-5"></div>
+        <h2 class="font-display font-semibold text-4xl md:text-5xl leading-[1.05] tracking-tight text-paper">
+          Usługi <span class="text-amber-bright">tartaczne</span>
+        </h2>
+      </div>
+      <a href="uslugi.html" class="btn btn-outline rounded-full px-6 py-3.5 text-sm uppercase tracking-wide shrink-0">
+        Wszystkie usługi
+        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+      </a>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="dark-card rounded-2xl p-7 reveal">
+        <i data-lucide="axe" class="w-7 h-7 text-amber-bright mb-5"></i>
+        <h3 class="font-display font-semibold text-xl tracking-tight text-paper mb-2">Usługowe przecieranie drewna</h3>
+        <p class="text-paper/70 text-sm leading-relaxed">Przecieramy kłody dostarczone przez klienta, do średnicy 120 cm i długości 10,8 m.</p>
+      </div>
+      <div class="dark-card rounded-2xl p-7 reveal">
+        <i data-lucide="ruler" class="w-7 h-7 text-amber-bright mb-5"></i>
+        <h3 class="font-display font-semibold text-xl tracking-tight text-paper mb-2">Tarcica obrzynana</h3>
+        <p class="text-paper/70 text-sm leading-relaxed">Deski i krawędziaki równe na całej długości, gotowe pod budowę i stolarkę.</p>
+      </div>
+      <div class="dark-card rounded-2xl p-7 reveal">
+        <i data-lucide="layers" class="w-7 h-7 text-amber-bright mb-5"></i>
+        <h3 class="font-display font-semibold text-xl tracking-tight text-paper mb-2">Tarcica nieobrzynana</h3>
+        <p class="text-paper/70 text-sm leading-relaxed">Deski z zachowaną korą, w cenie niższej niż obrzynane, idealne na deskowania i konstrukcje.</p>
+      </div>
+      <div class="dark-card rounded-2xl p-7 reveal">
+        <i data-lucide="home" class="w-7 h-7 text-amber-bright mb-5"></i>
+        <h3 class="font-display font-semibold text-xl tracking-tight text-paper mb-2">Więźba dachowa</h3>
+        <p class="text-paper/70 text-sm leading-relaxed">Krokwie, płatwie i murłaty przygotowane na wymiar pod konkretną konstrukcję dachu.</p>
+      </div>
+      <div class="dark-card rounded-2xl p-7 reveal">
+        <i data-lucide="fence" class="w-7 h-7 text-amber-bright mb-5"></i>
+        <h3 class="font-display font-semibold text-xl tracking-tight text-paper mb-2">Drewno ogrodowe</h3>
+        <p class="text-paper/70 text-sm leading-relaxed">Sztachety i panele ogrodzeniowe z litego drewna, na zamówienie w dowolnym wymiarze.</p>
+      </div>
+      <div class="dark-card rounded-2xl p-7 reveal">
+        <i data-lucide="flame" class="w-7 h-7 text-amber-bright mb-5"></i>
+        <h3 class="font-display font-semibold text-xl tracking-tight text-paper mb-2">Materiały opałowe i uboczne</h3>
+        <p class="text-paper/70 text-sm leading-relaxed">Odpady z przecierania, trociny i drewno opałowe, zagospodarowane bez marnotrawstwa.</p>
+      </div>
+    </div>
+  </div>
+
+  <svg class="sawtooth absolute -bottom-px left-0 text-paper" viewBox="0 0 1200 40" preserveAspectRatio="none" fill="currentColor">
+    <path d="M0,40 L25,12 L50,40 L75,12 L100,40 L125,12 L150,40 L175,12 L200,40 L225,12 L250,40 L275,12 L300,40 L325,12 L350,40 L375,12 L400,40 L425,12 L450,40 L475,12 L500,40 L525,12 L550,40 L575,12 L600,40 L625,12 L650,40 L675,12 L700,40 L725,12 L750,40 L775,12 L800,40 L825,12 L850,40 L875,12 L900,40 L925,12 L950,40 L975,12 L1000,40 L1025,12 L1050,40 L1075,12 L1100,40 L1125,12 L1150,40 L1175,12 L1200,40 Z"/>
+  </svg>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section id="realizacje" class="py-20 md:py-28 px-5 md:px-8 bg-paper">
+  <div class="max-w-7xl mx-auto">
+    <div class="max-w-2xl mb-14">
+      <div class="rule-bar mb-5"></div>
+      <h2 class="font-display font-semibold text-4xl md:text-5xl leading-[1.05] tracking-tight">
+        Drewno prosto <span class="text-amber-dark">z naszego tartaku</span>
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 auto-rows-[160px] md:auto-rows-[220px]">
+      <button class="gallery-item rounded-xl row-span-2 col-span-1" data-full="images/1.webp" data-caption="Tarcica nieobrzynana przygotowana do odbioru">
+        <img src="images/1.webp" alt="Tarcica nieobrzynana przygotowana do odbioru" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-plate absolute inset-x-0 bottom-0 rounded-b-xl"></span>
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-paper text-xs uppercase tracking-wide font-medium">Tarcica nieobrzynana</span>
+      </button>
+      <button class="gallery-item rounded-xl" data-full="images/3.webp" data-caption="Kłody sosnowe pozyskane z lasu, gotowe do przetarcia">
+        <img src="images/3.webp" alt="Kłody sosnowe pozyskane z lasu" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-plate absolute inset-x-0 bottom-0 rounded-b-xl"></span>
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-paper text-xs uppercase tracking-wide font-medium">Surowiec z lasu</span>
+      </button>
+      <button class="gallery-item rounded-xl" data-full="images/6.webp" data-caption="Tarcica obrzynana z widocznym usłojeniem sosny">
+        <img src="images/6.webp" alt="Tarcica obrzynana, usłojenie sosny" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-plate absolute inset-x-0 bottom-0 rounded-b-xl"></span>
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-paper text-xs uppercase tracking-wide font-medium">Tarcica obrzynana</span>
+      </button>
+      <button class="gallery-item rounded-xl row-span-2" data-full="images/5.webp" data-caption="Dębowe deski z zatoczoną krawędzią, wykończone pod meble">
+        <img src="images/5.webp" alt="Dębowe deski z zatoczoną krawędzią" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-plate absolute inset-x-0 bottom-0 rounded-b-xl"></span>
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-paper text-xs uppercase tracking-wide font-medium">Deski dębowe</span>
+      </button>
+      <button class="gallery-item rounded-xl" data-full="images/4.webp" data-caption="Zbliżenie na słoje i sęki deski sosnowej">
+        <img src="images/4.webp" alt="Zbliżenie na słoje deski sosnowej" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-plate absolute inset-x-0 bottom-0 rounded-b-xl"></span>
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-paper text-xs uppercase tracking-wide font-medium">Usłojenie sosny</span>
+      </button>
+      <button class="gallery-item rounded-xl" data-full="images/7.webp" data-caption="Deski strugane, równe na całej długości">
+        <img src="images/7.webp" alt="Deski strugane, równe na całej długości" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-plate absolute inset-x-0 bottom-0 rounded-b-xl"></span>
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-paper text-xs uppercase tracking-wide font-medium">Deska strugana</span>
+      </button>
+      <button class="gallery-item rounded-xl" data-full="images/8.webp" data-caption="Tarcica przygotowana na wymiar pod konkretne zlecenie">
+        <img src="images/8.webp" alt="Tarcica przygotowana na wymiar" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-plate absolute inset-x-0 bottom-0 rounded-b-xl"></span>
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-paper text-xs uppercase tracking-wide font-medium">Tarcica na wymiar</span>
+      </button>
+      <button class="gallery-item rounded-xl" data-full="images/9.webp" data-caption="Nieobrzynana tarcica suszona na powietrzu">
+        <img src="images/9.webp" alt="Nieobrzynana tarcica suszona na powietrzu" class="w-full h-full object-cover rounded-xl">
+        <span class="gallery-plate absolute inset-x-0 bottom-0 rounded-b-xl"></span>
+        <span class="gallery-caption absolute bottom-3 left-3 right-3 text-paper text-xs uppercase tracking-wide font-medium">Sezonowanie drewna</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section id="opinie" class="relative py-20 md:py-28 px-5 md:px-8 bg-bark wood-lines overflow-hidden">
+  <div class="grain"></div>
+  <div class="relative max-w-5xl mx-auto">
+    <div class="flex flex-wrap items-end justify-between gap-8 mb-14">
+      <div class="max-w-2xl">
+        <div class="rule-bar mb-5"></div>
+        <h2 class="font-display font-semibold text-4xl md:text-5xl leading-[1.05] tracking-tight text-paper">
+          Co mówią <span class="text-amber-bright">klienci</span>
+        </h2>
+      </div>
+      <div class="stat-pill rounded-2xl px-6 py-4 flex items-center gap-4">
+        <span class="font-display font-semibold text-5xl text-paper leading-none">5,0</span>
+        <div>
+          <div class="stars text-lg leading-none mb-1">★★★★★</div>
+          <div class="text-xs text-paper/70 uppercase tracking-wide">2 opinie Google</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-5">
+      <figure class="dark-card rounded-2xl p-7 reveal flex flex-col">
+        <div class="stars mb-4">★★★★★</div>
+        <blockquote class="text-paper leading-relaxed text-sm flex-1">"Pan Hubert to specjalista w swoim fachu. Miła i merytoryczna współpraca. Materiał bardzo dobrej jakości wykonany pierwszorzędnie! Panele ogrodzeniowe czekają na montaż. Polecam!"</blockquote>
+        <figcaption class="mt-5 text-xs text-paper/60 uppercase tracking-wide">Piotr Lupa · 2 miesiące temu</figcaption>
+      </figure>
+      <figure class="dark-card rounded-2xl p-7 reveal flex flex-col">
+        <div class="stars mb-4">★★★★★</div>
+        <blockquote class="text-paper leading-relaxed text-sm flex-1">"Miły kontakt, rzetelność, dobra jakość towaru, na pewno tu wrócę nie po jedną ambonę."</blockquote>
+        <figcaption class="mt-5 text-xs text-paper/60 uppercase tracking-wide">Bartek Kotarski · rok temu</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="kontakt" class="py-20 md:py-28 px-5 md:px-8 bg-paper">
+  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12">
+    <div>
+      <div class="rule-bar mb-5"></div>
+      <h2 class="font-display font-semibold text-4xl md:text-5xl leading-[1.05] tracking-tight mb-6">
+        Umów <span class="text-amber-dark">wycenę</span>
+      </h2>
+      <p class="text-ink-soft text-lg leading-relaxed max-w-lg mb-10">
+        Zadzwoń i opowiedz, jaki surowiec masz do przetarcia lub jakiej tarcicy potrzebujesz. Doradzimy i wycenimy zlecenie od ręki.
+      </p>
+
+      <div class="space-y-5">
+        <a href="tel:690971915" class="flex items-center gap-4 surface-card rounded-2xl p-5 group">
+          <div class="w-12 h-12 rounded-full bg-amber/10 flex items-center justify-center shrink-0">
+            <i data-lucide="phone" class="w-5 h-5 text-amber-dark"></i>
+          </div>
+          <div>
+            <div class="text-xs uppercase tracking-wide text-ink-soft mb-1">Telefon</div>
+            <div class="font-display font-semibold text-2xl tracking-tight">690 971 915</div>
+          </div>
+        </a>
+        <div class="flex items-center gap-4 surface-card rounded-2xl p-5">
+          <div class="w-12 h-12 rounded-full bg-amber/10 flex items-center justify-center shrink-0">
+            <i data-lucide="map-pin" class="w-5 h-5 text-amber-dark"></i>
+          </div>
+          <div>
+            <div class="text-xs uppercase tracking-wide text-ink-soft mb-1">Adres</div>
+            <div class="font-display font-semibold text-xl tracking-tight">Nad Rzeką 38a, 64-917 Skórka</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 surface-card rounded-2xl p-5">
+          <div class="w-12 h-12 rounded-full bg-amber/10 flex items-center justify-center shrink-0">
+            <i data-lucide="ruler" class="w-5 h-5 text-amber-dark"></i>
+          </div>
+          <div>
+            <div class="text-xs uppercase tracking-wide text-ink-soft mb-1">Zdolności przetarcia</div>
+            <div class="font-display font-semibold text-xl tracking-tight">śr. do 120 cm, dł. do 10,8 m</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 surface-card rounded-2xl p-5">
+          <div class="w-12 h-12 rounded-full bg-amber/10 flex items-center justify-center shrink-0">
+            <i data-lucide="map" class="w-5 h-5 text-amber-dark"></i>
+          </div>
+          <div>
+            <div class="text-xs uppercase tracking-wide text-ink-soft mb-1">Obszar działania</div>
+            <div class="font-display font-semibold text-xl tracking-tight">Skórka i okolice, woj. wielkopolskie</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rounded-2xl overflow-hidden shadow-[0_1px_2px_rgba(33,26,18,0.06),0_8px_20px_-8px_rgba(33,26,18,0.18)] min-h-[420px] border border-black/10">
+      <iframe
+        src="https://www.google.com/maps?q=Nad+Rzek%C4%85+38a%2C+64-917+Sk%C3%B3rka&output=embed"
+        class="w-full h-full min-h-[420px]"
+        style="border:0;"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Mapa dojazdu do Tar-Drew Hubert Streflik">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-bark px-5 md:px-8 pt-16 pb-8 border-t border-white/10">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-3 gap-10 mb-12">
+      <div>
+        <span class="font-display text-2xl tracking-tight leading-none block mb-4">
+          <span class="text-amber-bright font-semibold">Tar</span><span class="text-paper font-semibold">-Drew</span>
+        </span>
+        <p class="text-paper/60 text-sm leading-relaxed max-w-xs">Usługowe przecieranie drewna i sprzedaż tarcicy. Tartak Hubert Streflik w Skórce.</p>
+      </div>
+      <div class="text-sm">
+        <div class="text-paper/60 uppercase tracking-wide text-xs mb-4">Nawigacja</div>
+        <ul class="space-y-2">
+          <li><a href="uslugi.html" class="nav-link">Usługi</a></li>
+          <li><a href="index.html#realizacje" class="nav-link">Realizacje</a></li>
+          <li><a href="index.html#opinie" class="nav-link">Opinie</a></li>
+          <li><a href="index.html#kontakt" class="nav-link">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="text-sm">
+        <div class="text-paper/60 uppercase tracking-wide text-xs mb-4">Kontakt</div>
+        <ul class="space-y-2 text-paper">
+          <li><a href="tel:690971915" class="nav-link">690 971 915</a></li>
+          <li class="text-paper/60">Nad Rzeką 38a</li>
+          <li class="text-paper/60">64-917 Skórka</li>
+        </ul>
+      </div>
+    </div>
+    <div class="pt-8 border-t border-white/10 flex flex-wrap items-center justify-between gap-4 text-xs text-paper/60">
+      <span>© 2026 Tar-Drew Hubert Streflik. Wszelkie prawa zastrzeżone.</span>
+      <span>NIP 7671666770</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Podgląd zdjęcia">
+  <button id="lightbox-close" class="absolute top-6 right-6 text-paper hover:text-amber-bright transition-colors" aria-label="Zamknij podgląd">
+    <i data-lucide="x" class="w-8 h-8"></i>
+  </button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+  lucide.createIcons();
+
+  const header = document.getElementById('site-header');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('is-scrolled', window.scrollY > 12);
+  });
+
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  document.querySelectorAll('.gallery-item').forEach(item => {
+    item.addEventListener('click', () => {
+      lightboxImg.src = item.dataset.full;
+      lightboxImg.alt = item.dataset.caption || '';
+      lightbox.classList.add('is-open');
+    });
+  });
+  function closeLightbox() {
+    lightbox.classList.remove('is-open');
+    lightboxImg.src = '';
+  }
+  document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>
